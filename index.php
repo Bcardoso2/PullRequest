@@ -1,6 +1,6 @@
 <?php
 if (!empty($_GET['error'])) {
-  $login_error="The username or password you have entered is incorrect.";
+  $login_error="The username or password is incorrect.";
 }
 ?>
 
@@ -24,7 +24,7 @@ if (!empty($_GET['error'])) {
 
   <div id="outer">
     <div id="container">
-      <h2>Welcome!</h2>
+      <h2>Bem vindo!</h2>
       <form action="assets/authenticate.php" method="post">
         <div class="form-group">
           <label>Banner ID</label>
