@@ -10,10 +10,11 @@ if (!empty($_GET['error'])) {
 <head>
   <title>Home</title>
   <?php include 'assets/header.php'; ?>
-</head>
+  </head>
 
 <body style="margin-top:0px; width:100%; height:100%;">
 
+  <h3>hello World </h3>
   <nav class="navbar navbar-inverse navbar-fixed-top">
     <div class="container" style="height:80px;">
       <div class="navbar-header">
